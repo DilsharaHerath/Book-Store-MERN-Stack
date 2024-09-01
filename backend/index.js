@@ -9,6 +9,7 @@ app.get('/', (request, response)=>{
     return response.status(234).send("Welcoe to MERN stack")
 });
 
+
 mongoose
     .connect(mongoDBURL)
     .then(()=>{
